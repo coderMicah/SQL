@@ -1,0 +1,4 @@
+-- From order_items table get the items for order #6 where the total price is greater than 30
+
+USE sql_store;
+SELECT * from order_items WHERE order_id = '6' AND quantity * unit_price > 30
